@@ -54,6 +54,118 @@ img {
     padding: 25px 0;
 }
 
+                                /** HEADER MOB **/
+
+.mob-menu {
+    position: fixed;
+    min-width: 428px;
+    top: 0;
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: auto;
+}
+
+.btn-header-mob {
+    border: none;
+    background-color: transparent;
+    
+}
+
+.close-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+    margin-bottom: 32px;
+    cursor: pointer;
+    transition: background-color var(--transition), fill var(--transition);
+    padding: 0;
+}
+
+.item-btn-header {
+    stroke: #2E2F42;
+}
+
+.mob-main-nav {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    color: #2E2F42;
+    text-decoration: none; 
+}
+
+.mob-list:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.mob-menu-list {
+    padding-left: 16px;
+    margin-bottom: 50px;
+}
+
+
+.mob-header-list {
+    display: flex;
+    gap: 56px;
+}
+
+.container-menu-link {
+    padding-bottom: 40px;
+    padding-left: 40px;
+}
+
+.mob-tell {
+    color: #4D5AE5;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+
+.mob-email {
+    color: #434455;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    text-decoration: none;
+    margin-bottom: 48px;
+}
+
+.mob-icons-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    transition: background-color var(--transition);
+
+}
+
+
+
+                                /** MAIN **/
+
 .container {
     width: 100%;
     margin: 0 auto;
@@ -185,14 +297,14 @@ img {
 }
 
 .solutions {
-    width: 100%;
+    min-width: 428px;
     margin-right: auto;
     margin-left: auto;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-mob.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 188px 0;
+    padding: 112px 0;
 }
 
 .solutions h1 {
@@ -273,6 +385,7 @@ img {
 }
 
 .about {
+    min-width: 428px; 
     padding: 96px 16px;       
 }
 
@@ -337,6 +450,7 @@ img {
 .our-team {
     background: var(--color-footer);
     padding: 120px 0;
+    min-width: 428px;
 }
 
 .our-team .list {
@@ -404,6 +518,7 @@ img {
                             /** CUSTOMERS **/
                             
 .customers {
+    min-width: 428px;
     padding-top: 96px;
     padding-bottom: 96px;
 }
@@ -581,8 +696,9 @@ img {
                                 /* * FOOTER * */
 
 .footer {
+    min-width: 428px;
     background-color: var(--color-bg);
-    padding: 100px 0;
+    padding: 97.5px 0;
 }
 
 .footer a {
@@ -684,12 +800,8 @@ img {
 .footer-container {
     display: flex;
     flex-direction: column;
-    /* align-items: baseline; */
     align-items: center;
-    /* width: 1158px; */
-    width: 100%;
-    /* margin: 0 auto; */
-    /* padding: 0 15px; */
+    max-width: 426px;
 }
 
 .media-icons {
@@ -761,6 +873,7 @@ img {
     padding-left: 16px;
     padding-right: 16px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    opacity: 0.3;
 }
 
 .subscribe-input::placeholder {
