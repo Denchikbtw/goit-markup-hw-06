@@ -197,15 +197,15 @@
 
                                 /** HEADER **/
 
-        .header {
-            padding: 25px 0;
-        }
+    .header {
+        padding: 25px 0;
+    }
 
-        .addresses {
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
-        }
+    .addresses {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
 
                                 /** ADDRESS **/
 
