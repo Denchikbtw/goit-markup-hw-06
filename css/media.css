@@ -45,10 +45,15 @@
     }
 
     .container {
-        max-width: 798px;
+        max-width: 768px;
     }
 
                             /** HEADER **/
+
+    .header {
+        padding-top: 11px;
+        padding-bottom: 11px;
+    }
 
     .btn-header-mob {
         display: none;
@@ -67,6 +72,12 @@
         
     .navigation .menu {
         margin-left: 120px;
+    }
+
+    .addresses {
+        font-size: 12px;
+        line-height: 1.16;
+        letter-spacing: 0.48px;
     }
 
                             /** FIRST SECTION **/
@@ -96,6 +107,7 @@
 
     .about .description {
         max-width: 356px;
+        margin-bottom: 0;
     }
 
     .about .list {
@@ -120,7 +132,7 @@
     }
 
     .customers-list {
-        width: calc((100% - 72px) / 3);
+        width: 168px;
     }
 
 
@@ -129,12 +141,13 @@
 
     .logo-container {
         align-items: start;
+        margin-bottom: 0;
     }
     
     .container-social-media {
-        margin-left: 24px;
+    margin-bottom: 0;
     }
-    
+
     .media-title {
         display: flex;
         align-items: start;
@@ -163,8 +176,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         align-items: baseline;
-        margin-left: 110px;
-        padding: 0 15px;
+        gap: 72px 24px;
     }
 
 }
