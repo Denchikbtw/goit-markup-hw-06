@@ -195,6 +195,18 @@
         max-width: 1158px;
     }
 
+                                /** HEADER **/
+
+        .header {
+            padding: 25px 0;
+        }
+
+        .addresses {
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+        }
+
                                 /** ADDRESS **/
 
     .address-container {
