@@ -36,6 +36,17 @@
 
 }
 
+@media screen and (min-width: 428px){
+    .mob-header-list {
+        display: flex;
+        gap: 56px;
+    }
+
+    .container-menu-link {
+        padding-left: 16px;
+    }
+}
+
 
 
                                     /** TABLET **/
@@ -333,4 +344,8 @@
         gap: 0;
     }
 
+                            /** MODAL **/
+    .modal-wnd {
+        overflow: hidden;
+    }
 }

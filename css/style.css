@@ -51,7 +51,7 @@ img {
 .header {
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
     border-bottom: 1px solid #e7e9fc;
-    padding: 25px 0;
+    padding: 20px 0;
 }
 
                                 /** HEADER MOB **/
@@ -118,12 +118,11 @@ img {
 
 .mob-header-list {
     display: flex;
-    gap: 56px;
+    gap: 25px;
 }
 
 .container-menu-link {
     padding-bottom: 40px;
-    padding-left: 40px;
 }
 
 .mob-tell {
@@ -214,7 +213,6 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--color-logo);
-    
 }
 
 .navigation .logo .studio {
@@ -293,7 +291,7 @@ img {
                                     /* * FIRST SECTION * */
 
 .section {
-    padding: 120px;
+    padding: 120px 0;
 }
 
 .solutions {
@@ -304,10 +302,6 @@ img {
     background-position: center;
     background-size: cover;
     padding: 112px 0;
-}
-
-.solutions h1 {
-    width: 496px;
 }
 
 .solutions .main-text {
@@ -380,7 +374,7 @@ img {
 }
 
 .about {
-    padding: 96px 16px;       
+    padding: 96px 0;       
 }
 
 .about .list{
